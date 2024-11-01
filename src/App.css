@@ -1,0 +1,88 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: 'Arial', sans-serif;
+  background-color: #1f2933;
+}
+
+.advice-app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.advice-card {
+  background-color: #323f4b;
+  padding: 30px;
+  border-radius: 15px;
+  width: 350px;
+  text-align: center;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.advice-title {
+  font-size: 1.4em;
+  color: #9ca3af;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.advice-counter {
+  font-size: 0.9em;
+  color: #9ca3af;
+  margin-bottom: 20px;
+}
+
+.advice-text-container {
+  background-color: #1f2933;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.advice-text {
+  font-size: 1.25em;
+  color: #e2e8f0;
+}
+
+.advice-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  padding: 12px 20px;
+  font-size: 1em;
+  color: #f3f4f6;
+  background-color: #52b788; 
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 0 auto;
+}
+
+
+.advice-button:hover {
+  background-color: #40916c;
+}
+
+
+.spinner {
+  font-size: 1.25em;
+  color: #9ca3af;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
